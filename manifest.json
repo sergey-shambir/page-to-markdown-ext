@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Page to markdown",
+    "description": "Converts current page to markdown format",
+    "version": "1.0",
+    "icons": {
+        "16": "images/page-to-markdown-16x16.png",
+        "32": "images/page-to-markdown-32x32.png",
+        "48": "images/page-to-markdown-48x48.png",
+        "128": "images/page-to-markdown-128x128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/page-to-markdown-16x16.png",
+            "32": "images/page-to-markdown-32x32.png",
+            "48": "images/page-to-markdown-48x48.png",
+            "128": "images/page-to-markdown-128x128.png"
+        }
+    },
+    "permissions": ["activeTab", "scripting", "downloads"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
