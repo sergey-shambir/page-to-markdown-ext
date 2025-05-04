@@ -1,0 +1,1 @@
+![The beautiful MDN logo.](https://developer.mozilla.org/static/img/favicon144.png "MDN Logo")
