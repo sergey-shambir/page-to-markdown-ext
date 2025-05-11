@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Что такое ATDD
+  </title>
+  <script type="application/ld+json">
+   {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "Что такое ATDD? Полное руководство по Acceptance Test-Driven Development",
+                "datePublished": "2023-10-15",
+                "dateModified": "2023-10-20"
+            }
+  </script>
+ </head>
+ <body>
+  <h1>
+   Что такое ATDD?
+  </h1>
+  <p class="test">
+   Content
+  </p>
+ </body>
+</html>

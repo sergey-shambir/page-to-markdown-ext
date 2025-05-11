@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -o errexit
+
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+PARENT_DIR=$(dirname "$SCRIPT_DIR")
+TOOLS_DIR=${PARENT_DIR}/tools/html
+
+source "$TOOLS_DIR/.venv/bin/activate"
+
+python "$TOOLS_DIR/fetch_clean_html.py" "$@"
